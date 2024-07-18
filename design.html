@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseña tu Torta</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Diseña tu Torta</h1>
+    </header>
+    <main>
+        <form id="formTorta">
+            <div>
+                <label for="numPisos">Número de Pisos:</label>
+                <input type="number" id="numPisos" name="numPisos" min="1" max="5" value="1">
+            </div>
+            <div id="detallesPisos"></div>
+            <div>
+                <p>Precio Total: $<span id="precioTotal">0</span></p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tortas OWO</p>
+    </footer>
+</body>
+</html>
